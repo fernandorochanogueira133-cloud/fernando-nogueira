@@ -1,0 +1,111 @@
+
+.area-jobs {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+    background: transparent; 
+}
+
+.titulo-jobs {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin-bottom: 5px;
+}
+
+.subtitulo-jobs {
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 40px;
+}
+
+.grid-jobs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+.card-job {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 25px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card-job:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.tag-vaga {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ffcc00;
+    color: #333;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.card-job h3 {
+    color: #ffffff;
+    margin: 10px 0 5px 0;
+    font-size: 1.4rem;
+}
+
+.empresa {
+    color: #ffcc00;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.detalhes-job {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.local, .salario {
+    color: #000000;
+    font-size: 0.95rem;
+}
+
+.btn-candidatar {
+    display: block;
+    text-align: center;
+    background: #27ae60;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-candidatar:hover {
+    background: #219150;
+    box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
+}
+
+#video-fundo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000; 
+    transform: translate(-50%, -50%); 
+    object-fit: cover; 
+    filter: brightness(0.8) saturate(1.2); 
+}

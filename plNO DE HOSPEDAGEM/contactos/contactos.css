@@ -1,0 +1,171 @@
+
+body {
+    background-image:url("WhatsApp\ Image\ 2026-02-16\ at\ 13.07.50.jpeg");
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    filter: brightness(1.2)
+     saturate(1.20);
+}
+
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botao {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.2s, opacity 0.2s;
+    color: white;
+}
+
+.botao:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.email {
+    background-color: #ea4335;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background: linear-gradient(to right, #0066cc, #004080);
+    color: white;
+    padding: 50px 10%;
+    position: relative;
+    z-index: 10;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.footer-col h2,
+.footer-col h3 {
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: gold;
+}
+
+.social a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    color: gold;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

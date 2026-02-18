@@ -1,0 +1,101 @@
+
+.cardapio-africano {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+   
+    border-radius: 20px;
+}
+
+.titulo-principal {
+    text-align: center;
+    color: #8B4513; 
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #d2691e;
+    margin-bottom: 40px;
+}
+
+
+.grid-comidas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.prato-item {
+    background: #fff;
+    border-bottom: 4px solid #ffcc00; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.prato-item:hover {
+    transform: scale(1.02);
+}
+
+.prato-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.prato-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.prato-info h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.prato-info p {
+    font-size: 0.85rem;
+    color: #666;
+    height: 40px;
+}
+
+.preco {
+    display: block;
+    font-weight: bold;
+    color: #e67e22;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+
+.localizacao {
+    margin-top: 50px;
+    padding: 30px;
+    background: #8B4513;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.localizacao h3 {
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+#video-fundo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000; 
+    transform: translate(-50%, -50%); 
+    object-fit: cover; 
+    filter: brightness(0.8) saturate(1.2); 
+}
